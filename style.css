@@ -1,0 +1,91 @@
+/* utilities  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header  */
+header{
+    background-color:#264653 ;    
+}
+header h1{
+    font-size:48px ;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.header-info{
+    color:#E0E0E0 ;
+    margin-bottom: 21px;
+}
+.header-button{
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;    
+}
+/* Feature bike  */
+.feature-title{
+    margin-bottom: 120px;
+}
+.feature-title h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 61px;
+}
+.feature-title span{
+    color:#E76F51 ;
+    font-weight: 600;
+}
+#gray-bike img{
+    filter: grayscale(100%);
+}
+/* Happy clints say  */
+.review-title{
+    margin-top: 180px;
+    margin-bottom: 52px;
+}
+.review-title h1{
+    font-size: 56px;
+    font-weight:600;
+}
+.review-title span{
+    color:#E76F51 ;
+}
+.review-info p{
+    color:#6C6C6C ;
+    font-size: 16px;
+}   
+#reviwer-name a{
+    text-decoration: none;
+    color:#23A6F0 ;
+    font-size: 14px;
+    font-weight: 600;
+}
+#reviwer-job{
+    color: black;
+    font-weight:600;
+}
+.fas.fa-star{
+   color:#E77C40;
+}
+.far.fa-star{
+   color:#E77C40;
+}
+/* FAQ section  */
+.faq-title{
+    margin-top: 158px;
+    margin-bottom: 112px;
+}
+.faq-title h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.faq-title span{
+    color:#E76F51  ;
+}
+.accordion-title{
+    color:#383838 ;
+    font-size: 20px;
+    font-weight:500;
+}
+.accordion-info{
+    color:#7E848C ;
+}
