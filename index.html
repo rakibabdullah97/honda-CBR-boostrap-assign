@@ -2,297 +2,415 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Link -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
-    <!-- Bootstrap Link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Style sheet  -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome  -->
-    <script src="https://kit.fontawesome.com/ece5baf48c.js" crossorigin="anonymous"></script>
-    <title>Honda-cbr</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap Link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Style sheet  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/ece5baf48c.js" crossorigin="anonymous"></script>
+  <title>Honda-cbr</title>
 </head>
-
 <body>
-    <header class="py-5">
-        <section class="container">
-            <div class="row justify-content-between align-items-center ">
-                <div class="col-lg-5 col-12">
-                    <p class="text-white">Computer-controlled digital transistorized with electronic advance
-                    </p>
-                    <h1 class="text-white">Honda CBR 300R</h1>
-                    <p class="header-info">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                    <button type="button" class="btn header-button text-white" data-bs-toggle="modal" data-bs-target="#color-Modal">
-                        Purchase
-                    </button>
-                    <!-- Modal start -->
-                    <div class="modal fade" id="color-Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Pick and Pay</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Choose Your Bike Color.
-                                    <!-- Radio Button  -->
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                           Red 
-                                        </label>
-                                      </div>
-                                      <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                        <label class="form-check-label" for="flexRadioDefault2">
-                                           Black
-                                        </label>
-                                      </div>
-                                      <!-- Radio Button End  -->
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-success">Make Payment</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal End  -->
+  <header class="py-5">
+    <section class="container">
+      <div class="row justify-content-between align-items-center ">
+        <div class="col-lg-5 col-12">
+          <p class="text-white">Computer-controlled digital transistorized with electronic advance
+          </p>
+          <h1 class="text-white">Honda CBR 300R</h1>
+          <p class="header-info">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <button type="button" class="btn header-button text-white" data-bs-toggle="modal"
+            data-bs-target="#color-Modal">
+            Purchase
+          </button>
+          <!-- Modal start -->
+          <div class="modal fade" id="color-Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Pick and Pay</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-lg-5 col-12">
-                    <img width="100%" src="images/header-bike.png" alt="">
-                </div>
-            </div>
-        </section>
-    </header>
-    <main>
-        <!-- Feature Bike Section  -->
-        <section class="container">
-           <div class="d-flex justify-content-center text-center feature-title">
-               <div >
-                <h1>Fetured Bikes 2021</h1>
-                <span><small>Best bike collection</small></span>
-               </div>
-           </div>
-           <div class="row g-5">
-               <div id="gray-bike" class="col-lg-4 col-12 d-flex justify-content-center ">
-                   <img width="80%" src="images/feature-bike.jpg" alt="">
-               </div>
-               <div class="col-lg-4 col-12 d-flex justify-content-center">
-                   <img width="80%" src="images/feature-bike.jpg" alt="">
-               </div>
-               <div id="gray-bike" class="col-lg-4 col-12 d-flex justify-content-center">
-                   <img width="80%" src="images/feature-bike.jpg" alt="">
-               </div>
-           </div>
-        </section>
-        <!-- Feature Bike Section End  -->
-        <section class="container">
-            <div class="d-flex justify-content-center review-title">
-                <div class="text-center">
-                 <h1>Happy <span>Clients says</span></h1>
-                 
-                </div>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col text-center">
-                  <div class="card align-items-center p-5">
-                    <img width="149px" height="149px" src="images/user-1.png"  alt="...">
-                    <div class="card-body review-info">
-                        <p class="mt-5">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.
-                        </p>
-                        <span>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </span>
-                        <p id="reviwer-name"><small><a target="_blank" href="">Regina Miles</a></small></p>
-                        <p id="reviwer-job"><small>Banker</small> </p>
-
-                    </div>
+                <div class="modal-body">
+                  Choose Your Bike Color.
+                  <!-- Radio Button  -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Red
+                    </label>
                   </div>
-                </div>
-                <div class="col text-center">
-                  <div class="card align-items-center p-5">
-                    <img width="149px" height="149px" src="images/user-2.png"  alt="...">
-                    <div class="card-body review-info">
-                        <p class="mt-5">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.
-                        </p>
-                        <span>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </span>
-                        <p id="reviwer-name"><small><small><a target="_blank" href="">Regina Miles</a></small></p>
-                        <p id="reviwer-job"><small>Banker</small> </p>
-
-                    </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Black
+                    </label>
                   </div>
+                  <!-- Radio Button End  -->
                 </div>
-                <div class="col text-center">
-                  <div class="card align-items-center p-5">
-                    <img width="149px" height="149px" style="border-radius: 50%;" src="images/user-3.jpg"  alt="...">
-                    <div class="card-body review-info">
-                        <p class="mt-5">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.
-                        </p>
-                        <span>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </span>
-                        <p id="reviwer-name"><small><small><a target="_blank" href="">Regina Miles</a></small></p>
-                        <p id="reviwer-job"><small>Banker</small> </p>
-
-                    </div>
-                  </div>
-                </div> 
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Make Payment</button>
+                </div>
               </div>
-        </section>
-        <section class="container mb-5 ">
-            <div class="faq-title d-flex justify-content-center">
-                <div class="text-center">
-                    <h1>Frequently Asked <span>Questions</span></h1>
-                </div>
             </div>
-            <div class="row g-5 justify-content-around ">
-                <div class="col-lg-5 col-12 d-flex justify-content-center ">
-                    <img width="431" height="423" class="w-100" src="images/faq.png" alt="">
-                </div>
-                <!-- Accordion Starts here  -->
-                <div class="col-lg-5 col-12 ">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item mb-3 ">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span class="accordion-title">What are the most important things I should
-                                    know about riding a bike?</span>
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body accordion-info">
-                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <span class="accordion-title">How can I tell if my helmet is old and I need a 
-                                    new one?</span>
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body accordion-info">
-                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <span class="accordion-title">
-                                My bike has been in storage is it safe to ride?
-                              </span>
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body accordion-info">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                          <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              <span class="accordion-title">
-                                What rules should I follow when riding my bike?
-                              </span>
-                            </button>
-                          </h2>
-                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body accordion-info">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Accordion Ends Here  -->
-                </div>
+          </div>
+          <!-- Modal End  -->
+        </div>
+        <div class="col-lg-5 col-12">
+          <img width="100%" src="images/header-bike.png" alt="">
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- Feature Bike Section  -->
+    <section class="container">
+      <div class="d-flex justify-content-center text-center feature-title">
+        <div>
+          <h1>Fetured Bikes 2021</h1>
+          <span><small>Best bike collection</small></span>
+        </div>
+      </div>
+      <div class="row g-5">
+        <div id="gray-bike" class="col-lg-4 col-12 d-flex justify-content-center ">
+          <img width="80%" src="images/feature-bike.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-12 d-flex justify-content-center">
+          <img width="80%" src="images/feature-bike.jpg" alt="">
+        </div>
+        <div id="gray-bike" class="col-lg-4 col-12 d-flex justify-content-center">
+          <img width="80%" src="images/feature-bike.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- Feature Bike Section End  -->
+    <section class="container">
+      <div class="d-flex justify-content-center review-title">
+        <div class="text-center">
+          <h1>Happy <span>Clients says</span></h1>
+
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col text-center">
+          <div class="card align-items-center p-5">
+            <img width="149px" height="149px" src="images/user-1.png" alt="...">
+            <div class="card-body review-info">
+              <p class="mt-5">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the month and year.
+              </p>
+              <span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+              <p id="reviwer-name"><small><a target="_blank" href="">Regina Miles</a></small></p>
+              <p id="reviwer-job"><small>Banker</small> </p>
             </div>
-        </section>
-        <section class="container">
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card align-items-center p-5">
+            <img width="149px" height="149px" src="images/user-2.png" alt="...">
+            <div class="card-body review-info">
+              <p class="mt-5">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the month and year.
+              </p>
+              <span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+              <p id="reviwer-name"><small><small><a target="_blank" href="">Regina Miles</a></small></p>
+              <p id="reviwer-job"><small>Banker</small> </p>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card align-items-center p-5">
+            <img width="149px" height="149px" style="border-radius: 50%;" src="images/user-3.jpg" alt="...">
+            <div class="card-body review-info">
+              <p class="mt-5">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the month and year.
+              </p>
+              <span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+              <p id="reviwer-name"><small><small><a target="_blank" href="">Regina Miles</a></small></p>
+              <p id="reviwer-job"><small>Banker</small> </p>
 
-        </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mb-5 ">
+      <div class="faq-title d-flex justify-content-center">
+        <div class="text-center">
+          <h1>Frequently Asked <span>Questions</span></h1>
+        </div>
+      </div>
+      <div class="row g-5 justify-content-around ">
+        <div class="col-lg-5 col-12 d-flex justify-content-center ">
+          <img width="431" height="423" class="w-100" src="images/faq.png" alt="">
+        </div>
+        <!-- Accordion Starts here  -->
+        <div class="col-lg-5 col-12 ">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-3 ">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <span class="accordion-title">What are the most important things I should
+                    know about riding a bike?</span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body accordion-info">
+                  Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                  mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and
+                  legally compliant bike rider.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="accordion-title">How can I tell if my helmet is old and I need a
+                    new one?</span>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body accordion-info">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span class="accordion-title">
+                    My bike has been in storage is it safe to ride?
+                  </span>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body accordion-info">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <span class="accordion-title">
+                    What rules should I follow when riding my bike?
+                  </span>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body accordion-info">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Ends Here  -->
+        </div>
+      </div>
+    </section>
+    <!-- New Lunch Sector  -->
+    <section class="container my-5">
+      <div class="faq-title d-flex justify-content-center">
+        <div class="text-center">
+          <h1>New<span> Lunch</span></h1>
+        </div>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-7 col-11">
+                <h1>
+                  New CBZ 150R
+                </h1>
+                <p>
+                  With new featurs and adventure
+                </p>
+                <button class="btn btn-warning">Take A Look</button>
+              </div>
+              <div class="col-lg-5 col-11">
+                <img src="images/bike-2.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-7 col-11">
+                <h1>
+                  New CBR 150R
+                </h1>
+                <p>
+                  With new featurs and adventure
+                </p>
+                <button class="btn btn-warning">Take A Look</button>
+              </div>
+              <div class="col-lg-5 col-11">
+                <img src="images/bike-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- New Lunch Sector Ends  -->
 
+    <!-- Dealer section start  -->
+    <section class="container my-5">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Js script  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+      <div class="faq-title d-flex justify-content-center">
+        <div class="text-center">
+          <h1>Dealer<span> Locator</span></h1>
+        </div>
+      </div>
+      <div class="bg-danger bg-gradient p-5">
+        <h2>Provide your infomation to find the nearest dealer</h2>
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Mobile Number</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">+880</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                required>
+              <div class="invalid-feedback">
+                Please Input your Number.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Division</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>Dhaka</option>
+              <option>Sylhet</option>
+              <option>Rajshahi</option>
+              <option>Borisal</option>
+              <option>Chittagong</option>
+              <option>Khulna</option>
+              <option>Nuwakali</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-success" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="mt-5 text-center">
+    <p><small>copy right 2020. All right reserved</small></p>
+  </footer>
+  <!-- Js script  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
